@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FTE+ | TikTok</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700;900&family=Inter:wght@400;500;600&display=swap');
+
+  :root{
+    --navy:#0B2545;
+    --navy-2:#123661;
+    --gold:#F5A623;
+    --cream:#F7F5F0;
+  }
+
+  *{box-sizing:border-box; margin:0; padding:0;}
+
+  body{
+    font-family:'Inter', sans-serif;
+    background: linear-gradient(180deg, var(--navy) 0%, var(--navy-2) 100%);
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding: 48px 20px;
+    color:var(--cream);
+  }
+
+  .card{
+    width:100%;
+    max-width:420px;
+    text-align:center;
+  }
+
+  .icon-wrap{
+    width:96px;
+    height:96px;
+    margin:0 auto 24px auto;
+    border-radius:50%;
+    background:rgba(255,255,255,0.06);
+    border:1px solid rgba(255,255,255,0.1);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+
+  .icon-wrap svg{ width:44px; height:44px; }
+
+  h1{
+    font-family:'Fraunces', serif;
+    font-weight:900;
+    font-size:26px;
+    letter-spacing:-0.02em;
+    margin-bottom:10px;
+  }
+
+  p{
+    font-size:14px;
+    color:#B8C4D9;
+    line-height:1.5;
+    margin-bottom:28px;
+  }
+
+  .btn{
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+    background: var(--gold);
+    color: var(--navy);
+    font-weight:600;
+    font-size:14px;
+    padding:14px 26px;
+    border-radius:14px;
+    text-decoration:none;
+    transition: transform 0.15s ease;
+  }
+
+  .btn:hover{ transform: translateY(-2px); }
+
+  .badge{
+    margin-top:18px;
+    font-size:12px;
+    color:#7488A6;
+  }
+</style>
+</head>
+<body>
+
+<div class="card">
+  <div class="icon-wrap">
+    <svg viewBox="0 0 24 24" fill="white"><path d="M16.6 5.82s.51.5 0 0A4.278 4.278 0 0 1 15.54 3h-3.09v12.4a2.592 2.592 0 0 1-2.59 2.5c-1.42 0-2.6-1.16-2.6-2.6 0-1.72 1.66-3.01 3.37-2.48V9.66c-3.45-.46-6.47 2.22-6.47 5.64 0 3.33 2.76 5.7 5.69 5.7 3.14 0 5.69-2.55 5.69-5.7V9.01a7.35 7.35 0 0 0 4.3 1.38V7.3s-1.88.09-3.24-1.48z"/></svg>
+  </div>
+
+  <h1>Video próximamente</h1>
+  <p>Estamos preparando el pitch de FTE+ en TikTok. ¡Muy pronto vas a poder verlo acá!</p>
+
+  <a class="btn" href="https://www.tiktok.com" target="_blank">
+    Síguenos en TikTok →
+  </a>
+
+  <div class="badge">FTE+ · Fine Tuned English</div>
+</div>
+
+</body>
+</html>
